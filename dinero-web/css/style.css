@@ -365,7 +365,11 @@ body.dark-theme {
 .home__social {
   justify-content: center;
   display: flex;
+  font-size: 1.35rem;
   column-gap: 1.25rem;
+}
+.home__social i {
+  color: black;
 }
 
 .home__social-link {
@@ -1026,6 +1030,7 @@ body.dark-theme {
     width: 200px;
     justify-content: center;
   }
+  
 }
 /* For medium devices */
 @media screen and (min-width: 576px) {
